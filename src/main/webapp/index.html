@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Register</title>
+<style>
+	.outer{
+		display: flex;
+		flex-direction: column;
+		justify-content:center;
+		align-items: center;
+		border-style: solid;
+		border-width: 5px;
+		height: 400px;
+		width: 400px;
+		margin: auto;
+		margin-top: 5%;
+	}
+	h1{
+		margin-top: 5%;
+		margin-left: 38%;
+	}
+</style>
+</head>
+<body>
+	<h1>Register Yourself Here!!!</h1>
+	<div class="outer" align="center">
+		<form action="Servlet">
+		<div>
+			<label>Name:</label>
+			<input type="text" name="name" required> <br> <br>
+		</div>
+		<div>
+			<label>User Name:</label>
+			<input type="text" name="userName" required> <br> <br>
+		</div>
+		<div>
+			<label>E-mail:</label>
+			<input type="text" name="email" placeholder="@gmail.com" required> <br> <br>
+		</div>
+		<div>
+			<label>Mobile:</label>
+			<input type="text" name="mobile" required> <br> <br>
+		</div>
+		<div>
+			<label>New Password:</label>
+			<input type="text" name="password" required> <br> <br>
+		</div>
+		<div>
+			<label>Confirm Password:</label>
+			<input type="text" name="confirmPassword" required> <br> <br>
+		</div>
+		<div>
+			<label>Date of Birth:</label>
+			<input type="date" name="DOB" required> <br> <br>
+		</div>
+		<div>
+			<input type="submit" value="register">
+		</div>
+		</form>
+	</div>
+</body>
+</html>

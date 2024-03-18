@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>LOGIN</title>
+<style>
+	.outer{
+		border-style: solid;
+		border-width: 5px;
+		margin: auto;
+		margin-top: 2%;
+		display: flex;
+		justify-content: center;
+		align-items: stretch;
+		width: 350px;
+	}
+	input[type="submit"]
+	{
+		margin-left: 120px;
+		background-color: black;
+		color: white;
+	}
+	div{
+		padding: 10px;
+	}
+	body{
+		background-color: grey;
+		color: black;
+	}
+	input{
+		outline: none;
+	}
+	h1{
+		margin-left: 46%;
+		margin-top: 13%;
+	}
+	p{
+		font-size: 10px;
+		padding-left: 43%;
+	}
+</style>
+</head>
+<body>
+	<h1>LOGIN</h1>
+	<div class="outer">
+		<form action="Authorizer">
+			<div>
+				<label>Enter UserName:</label>
+				<input type="text" name="uname" required>
+			</div>
+			<div>
+				<label>Enter Password:</label> &nbsp;
+				<input type="text" name="pass" required="required">
+				<p>forget password</p>
+			</div>
+			<div>
+				<input type="submit" value="login">
+			</div>
+		</form>	
+	</div>
+</body>
